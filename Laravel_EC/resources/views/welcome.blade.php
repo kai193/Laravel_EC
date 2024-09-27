@@ -15,7 +15,7 @@
             </div>
                 <div class="header_log_nav">
                     <div class="btn">
-                        <button type="button">LOGIN</button>
+                        <button type="button">LOGINininin</button>
                     </div>
                     <div class="head_log">
                         <img src="images/cart.svg">
@@ -242,7 +242,7 @@
         </footer>
     </main>
 
-    
+
     <script src="js/header-nave.js"></script>
 
 </body>
