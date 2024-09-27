@@ -1,249 +1,234 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
-<title>ECサイト</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スキルシェアECサイト</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-
 </head>
+
 <body>
-    <header class="header">
-        <div class="content">
-            <div class="head_log">
-                <img src="images/yuuki.jpeg">
+    <div class="wrapper">
+        <div class="main-visual">
+            <div class="image-container">
+                <img src="images/kari.jpg" alt="">
             </div>
-                <div class="header_log_nav">
-                    <div class="btn">
-                        <button type="button">LOGINininintintin</button>
-                    </div>
-                    <div class="head_log">
-                        <img src="images/cart.svg">
-                    </div>
-                    <nav class="header-nave">
-                        <div class="toggle-btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-    </header>
-    <main class="main">
-        <section class="main_section">
-                <h1 class="search_ttl">search</h1>
-                <p class="search">さがす</p>
-            <div class="second_content">
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <div class="kimenonawa">
-                        <p class="second_text">初心者向けPythonコース<br>
-                            Webサイト制作コース
-                        </p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                    </div>
-                    <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
-                    </div>
-                </div>
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <figcaption class="kimenonawa">
-                        <p class="second_text">中級者向けWebアプリケーション<br>
-                            開発コース
-                        </p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                        <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
-                        </div>
-                    </figcaption>
-                </div>
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <figcaption class="kimenonawa">
-                        <p class="second_text">HTML/CSS基礎講座<br>
-                            Webサイト制作コース
-                        </p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                        <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
-                        </div>
-                    </figcaption>
-                </div>
-            </div>
-            <div class="second_content">
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <div class="kimenonawa">
-                        <p class="second_text">現役エンジニアが教える！<br>
-                            即戦力プログラミング講座
-                        </p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                    </div>
-                    <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
-                    </div>
-                </div>
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <figcaption class="kimenonawa">
-                        <p class="second_text">現役エンジニアが教える！<br>ハイレベルプログラミング</p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                        <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
-                        </div>
-                    </figcaption>
-                </div>
-                <div class="second_img">
-                    <figure class="img_container">
-                        <img src="images/yuuki.jpeg">
-                    </figure>
-                    <figcaption class="kimenonawa">
-                        <p class="second_text">挫折しない！現役エンジニアが教える<br>
-                            プログラミング
-                        </p>
-                        <div class="price">
-                            <p class="price_name">¥5,740</p>
-                            <img src="images/heart.svg">
-                        </div>
-                        <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
-                        </div>
-                    </figcaption>
-                </div>
-            </div>
-        </section>
-        <section class="scene">
-            <h1 class="scene_ttl">scene</h1>
-            <p class="scene_text">シーンや気持ちで探す</p>
-            <div class="btn_flex">
-                <div class="scene_btn_content">
-                    <a href="" class="btn btn-flat"><span class="push">#音楽したい🎹</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#資格試験✏️</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
-                </div>
-                <div class="scene_btn_content02">
-                    <a href="" class="btn btn-flat"><span class="push">#運動したい気分🏃‍♀</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="category">
-            <h1 class="category_ttl">Category</h1>
-            <p class="category_text">カテゴリーから探す</p>
-            <div class="circle_content">
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#音楽</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#プログラミング</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#資格</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#料理</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="circle_content">
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#運動</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#E-sport</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#人気上昇</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/yuuki.jpeg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#殿堂入り</p>
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
-        <div class="sns_content">
-            <div class="sns_area">
-                <figure class="sns_area_img">
-                    <img src="images/yuuki.jpeg">
-                </figure>
-                <figure class="sns_icon">
-                    <a href="#"><img src="images/instagram_icon.svg" alt="facebook"></a>
-                    <a href="#"><img src="images/twitter_icon.svg" alt="twitter"></a>
-                    <a href="#"><img src="images/facebook_icon.svg" alt="instagram"></a>
-                </figure>
-                <div class="sns_area_text">
-                    <p>先生になる</p>
-                    <p>ログイン・新規会員登録</p>
-                </div>
-                <div class="inquiry">
-                    <p>| よくある質問</p>
-                    <p>| お問い合わせ</p>
-                    <p>| プライバシーポリシー</p>
-                    <p>| ご利用規約</p>
-                </div>
-            </div>
+            <h1>Skill Masterとは？</h1>
         </div>
-        <footer class="footer">
-            <div class="footer-text">
-                <p>© 2024 See heart</p>
+        <div class="teach-ranking">
+            <div class="teach-ranking-text">
+                <h1>Ranking</h1>
+                <p>ランキング</p>
             </div>
-        </footer>
-    </main>
+            <div class="slider">
+                <div class="slider-wrapper">
+                    <div class="ranking-list">
+                        <div class="slide">
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">現役エンジニアが教える！<br>即戦力プログラミング講座</p>
+                                    <p class="item-price">¥3,740</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">現役エンジニアが教える!<br>ハイレベルプログラミング</p>
+                                    <p class="item-price">¥8,640</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">現役エンジニアが教える!<br>デザイン基礎講！</p>
+                                    <p class="item-price">¥4,230</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">本格中華料理の極意<br>家庭で味わえる本格中華</p>
+                                    <p class="item-price">¥3,740</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">最短で稼げるデザイン習得</p>
+                                    <p class="item-price">¥3,740</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">フォートナイト建築マスター 入門</p>
+                                    <p class="item-price">¥8,640</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">見て、聞いて、話して<br>学べる韓国語講座</p>
+                                    <p class="item-price">¥4,230</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-content">
+                                    <img src="images/kari.jpg" alt="">
+                                    <p class="item-description">Let's enjoy Chainease!</p>
+                                    <p class="item-price">¥3,740</p>
+                                    <a href="#" class="item-link">詳細を見る</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="button">
+                    <button class="prev">←</button>
+                    <div class="page">
+                        <p>01</p>
+                        <div class="line"></div>
+                        <p>02</p>
+                    </div>
+                    <button class="next">→</button>
+                </div>
+            </div>
+
+            <div class="recomend-wrapper">
+                <div class="recomend-text">
+                    <h1>Recomended</h1>
+                    <p>おすすめ</p>
+                </div>
+                <div class="recomend">
+                    <div class="recomend-list">
+                        <img src="images/kari.jpg" alt="">
+                        <p>初心者向けPythonコース<br>Web制作コース</p>
+                        <p class="item-price">¥5,740</p>
+                        <p class="item-link">詳細を見る</p>
+                    </div>
+                    <div class="recomend-list">
+                        <img src="images/kari.jpg" alt="">
+                        <p>現役デザイナーが教える!<br>デザイン入門講座</p>
+                        <p class="item-price">¥6,270</p>
+                        <p class="item-link">詳細を見る</p>
+                    </div>
+                    <div class="recomend-list">
+                        <img src="images/kari.jpg" alt="">
+                        <p>[初心者脱出]<br>Valorant完全攻略講座</p>
+                        <p class="item-price">¥8,640</p>
+                        <p class="item-link">詳細を見る</p>
+                    </div>
+                    <div class="recomend-list">
+                        <img src="images/kari.jpg" alt="">
+                        <p>現役デザイナーが教える!<br>Webデザイン講座</p>
+                        <p class="item-price">¥6,230</p>
+                        <p class="item-link">詳細を見る</p>
+                    </div>
+                </div>
+            </div>
 
 
-    <script src="js/header-nave.js"></script>
+            <div class="field-area">
+                <h1>You can learn</h1>
+                <p>分野</p>
+                <div class="field-content1">
+                    <div class="field-img">
+                        <img src="images/Vector 8.jpg" alt="背景画像">
+                    </div>
+                    <div class="field-text">
+                        <h1 class="h1-text">プログラミング</h1>
+                        <h2>学べる内容</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>Java</li>
+                            <li>Java</li>
+                            <li>Java</li>
+                        </ul>
+                        <p>あああああああああああああああああああああああ</p>
+                        <h3>saaaaaaaaaaaaaaaaaaa</h3>
+                        <p>詳細を見る</p>
+                    </div>
+                </div>
 
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="scene-area">
+                <h1>Scene</h1>
+                <p>シーンや気持ちで探す</p>
+                <div class="scene-list">
+                    <ul>
+                        <li>#音楽したい🎹</li>
+                        <li>#プログラミングを学びたい💻</li>
+                        <li>#資格試験✏️</li>
+                        <li>#料理したい気分🍳</li>
+                        <li>#運動したい気分🏃‍♀️</li>
+                        <li>#デザインしたい🎨</li>
+                        <li>#外国語を学びたい🇺🇸</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="category-area">
+                <h1>Category</h1>
+                <p>カテゴリーから探す</p>
+                <div class="category-content">
+                    <img src="images/kari.jpg" alt="">
+                    <p>#音楽🎵</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#プログラミング💻</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#資格✏️</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#料理🍳</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#運動🥊</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#デザイン🧑‍🎨</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#E-sports🎮</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#人気上昇🔥</p>
+
+                    <img src="images/kari.jpg" alt="">
+                    <p>#殿堂入り👑</p>
+                </div>
+            </div>
+
+        </div> -->
+            <script src="js/main.js"></script>
 </body>
+
 </html>
