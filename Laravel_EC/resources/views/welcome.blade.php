@@ -15,7 +15,7 @@
             </div>
                 <div class="header_log_nav">
                     <div class="btn">
-                        <button type="button">LOGINininin</button>
+                        <button type="button">LOGINininintintin</button>
                     </div>
                     <div class="head_log">
                         <img src="images/cart.svg">
