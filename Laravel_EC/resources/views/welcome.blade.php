@@ -14,7 +14,7 @@
             <div class="image-container">
                 <img src="images/kari.jpg" alt="">
             </div>
-            <h1>Skill Masterとは？穂毛hoge</h1>
+            <h1>Skill Masterとは？</h1>
         </div>
         <div class="teach-ranking">
             <div class="teach-ranking-text">
@@ -95,54 +95,57 @@
                     </div>
                 </div>
             </div>
-                <div class="button">
-                    <button class="prev">←</button>
-                    <div class="page">
-                        <p>01</p>
-                        <div class="line"></div>
-                        <p>02</p>
-                    </div>
-                    <button class="next">→</button>
+            <div class="button">
+                <button class="prev">←</button>
+                <div class="page">
+                    <p>01</p>
+                    <div class="line"></div>
+                    <p>02</p>
+                </div>
+                <button class="next">→</button>
+            </div>
+        </div>
+
+        <div class="recomend-wrapper">
+            <div class="recomend-text">
+                <h1>Recomended</h1>
+                <p>おすすめ</p>
+            </div>
+            <div class="recomend">
+                <div class="recomend-list">
+                    <img src="images/kari.jpg" alt="">
+                    <p>初心者向けPythonコース<br>Web制作コース</p>
+                    <p class="item-price">¥5,740</p>
+                    <p class="item-link">詳細を見る</p>
+                </div>
+                <div class="recommend-list">
+                    <img src="images/kari.jpg" alt="">
+                    <p>現役デザイナーが教える!<br>デザイン入門講座</p>
+                    <p class="item-price">¥6,270</p>
+                    <p class="item-link">詳細を見る</p>
+                </div>
+                <div class="recomend-list">
+                    <img src="images/kari.jpg" alt="">
+                    <p>[初心者脱出]<br>Valorant完全攻略講座</p>
+                    <p class="item-price">¥8,640</p>
+                    <p class="item-link">詳細を見る</p>
+                </div>
+                <div class="recomend-list">
+                    <img src="images/kari.jpg" alt="">
+                    <p>現役デザイナーが教える!<br>Webデザイン講座</p>
+                    <p class="item-price">¥6,230</p>
+                    <p class="item-link">詳細を見る</p>
                 </div>
             </div>
-
-            <div class="recomend-wrapper">
-                <div class="recomend-text">
-                    <h1>Recomended</h1>
-                    <p>おすすめ</p>
-                </div>
-                <div class="recomend">
-                    <div class="recomend-list">
-                        <img src="images/kari.jpg" alt="">
-                        <p>初心者向けPythonコース<br>Web制作コース</p>
-                        <p class="item-price">¥5,740</p>
-                        <p class="item-link">詳細を見る</p>
-                    </div>
-                    <div class="recomend-list">
-                        <img src="images/kari.jpg" alt="">
-                        <p>現役デザイナーが教える!<br>デザイン入門講座</p>
-                        <p class="item-price">¥6,270</p>
-                        <p class="item-link">詳細を見る</p>
-                    </div>
-                    <div class="recomend-list">
-                        <img src="images/kari.jpg" alt="">
-                        <p>[初心者脱出]<br>Valorant完全攻略講座</p>
-                        <p class="item-price">¥8,640</p>
-                        <p class="item-link">詳細を見る</p>
-                    </div>
-                    <div class="recomend-list">
-                        <img src="images/kari.jpg" alt="">
-                        <p>現役デザイナーが教える!<br>Webデザイン講座</p>
-                        <p class="item-price">¥6,230</p>
-                        <p class="item-link">詳細を見る</p>
-                    </div>
-                </div>
-            </div>
+        </div>
 
 
-            <div class="field-area">
+        <div class="field-area">
+            <div class="field-main-text">
                 <h1>You can learn</h1>
                 <p>分野</p>
+            </div>
+            <div class="field-content-wrapper">
                 <div class="field-content1">
                     <div class="field-img">
                         <img src="images/Vector 8.jpg" alt="背景画像">
@@ -162,7 +165,26 @@
                     </div>
                 </div>
 
+                <div class="field-content1">
+                    <div class="field-img">
+                        <img src="images/Vector 8.jpg" alt="背景画像">
+                    </div>
+                    <div class="field-text">
+                        <h1 class="h1-text">プログラミング</h1>
+                        <h2>学べる内容</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>Java</li>
+                            <li>Java</li>
+                            <li>Java</li>
+                        </ul>
+                        <p>あああああああああああああああああああああああ</p>
+                        <h3>saaaaaaaaaaaaaaaaaaa</h3>
+                        <p>詳細を見る</p>
+                    </div>
+                </div>
             </div>
+        </div>
 
 
 
@@ -178,7 +200,7 @@
 
 
 
-            <!-- <div class="scene-area">
+        <!-- <div class="scene-area">
                 <h1>Scene</h1>
                 <p>シーンや気持ちで探す</p>
                 <div class="scene-list">
@@ -228,7 +250,33 @@
             </div>
 
         </div> -->
-            <script src="js/main.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const sliderWrapper = document.querySelector('.slider-wrapper');
+                const prevButton = document.querySelector('.prev');
+                const nextButton = document.querySelector('.next');
+                const slides = document.querySelectorAll('.slide');
+                let currentIndex = 0;
+
+                function showSlide(index) {
+                    const totalSlides = slides.length;
+                    if (index < 0) index = totalSlides - 1;
+                    if (index >= totalSlides) index = 0;
+                    sliderWrapper.style.transform = `translateX(-${index * 100}%)`;
+                    currentIndex = index;
+                }
+
+                prevButton.addEventListener('click', () => {
+                    showSlide(currentIndex - 1);
+                });
+
+                nextButton.addEventListener('click', () => {
+                    showSlide(currentIndex + 1);
+                });
+
+
+            });
+        </script>
 </body>
 
 </html>

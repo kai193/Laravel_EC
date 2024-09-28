@@ -227,13 +227,12 @@
     background-color: #FFC268;
 }
 
-.field-content1 {
-    position: relative;
-    margin: 0 auto;
+.field-main-text h1 p {
+    text-align: center;
 }
 
 .field-img {
-    position: relative; 
+    position: relative;
     margin: 0 auto;
 }
 
@@ -249,9 +248,7 @@
     padding: 20px; /* 内側の余白を設定 */
 }
 
-.field-text h1, .field-text h2, .field-text h3, .field-text p, .field-text ul {
-    margin: 0 0 10px; /* マージンを調整して余白を統一 */
-}
+
 
 .field-text ul {
     list-style-type: none; /* リストのデフォルトの箇条書き記号を削除 */
