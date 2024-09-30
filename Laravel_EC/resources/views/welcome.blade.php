@@ -200,7 +200,7 @@
 
 
 
-        <!-- <div class="scene-area">
+        <div class="scene-area">
                 <h1>Scene</h1>
                 <p>シーンや気持ちで探す</p>
                 <div class="scene-list">
@@ -216,7 +216,7 @@
                 </div>
             </div>
 
-            <div class="category-area">
+            <!-- <div class="category-area">
                 <h1>Category</h1>
                 <p>カテゴリーから探す</p>
                 <div class="category-content">
@@ -247,9 +247,9 @@
                     <img src="images/kari.jpg" alt="">
                     <p>#殿堂入り👑</p>
                 </div>
-            </div>
+            </div> -->
 
-        </div> -->
+        </div>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const sliderWrapper = document.querySelector('.slider-wrapper');
