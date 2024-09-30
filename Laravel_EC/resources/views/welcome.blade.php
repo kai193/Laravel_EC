@@ -145,8 +145,8 @@
                 <h1>You can learn</h1>
                 <p>分野</p>
             </div>
-            <div class="field-content-wrapper">
-                <div class="field-content1">
+            <div class="field-content-wrapper" style="display: flex;">
+                <div class="field-content">
                     <div class="field-img">
                         <img src="images/Vector 8.jpg" alt="背景画像">
                     </div>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="field-content1">
+                <div class="field-content">
                     <div class="field-img">
                         <img src="images/Vector 8.jpg" alt="背景画像">
                     </div>
@@ -201,22 +201,24 @@
 
 
         <div class="scene-area">
+            <div class="scene-text" >
                 <h1>Scene</h1>
                 <p>シーンや気持ちで探す</p>
-                <div class="scene-list">
-                    <ul>
-                        <li>#音楽したい🎹</li>
-                        <li>#プログラミングを学びたい💻</li>
-                        <li>#資格試験✏️</li>
-                        <li>#料理したい気分🍳</li>
-                        <li>#運動したい気分🏃‍♀️</li>
-                        <li>#デザインしたい🎨</li>
-                        <li>#外国語を学びたい🇺🇸</li>
-                    </ul>
-                </div>
             </div>
+            <div class="scene-list">
+                <ul>
+                    <li>#音楽したい🎹</li>
+                    <li>#プログラミングを学びたい💻</li>
+                    <li>#資格試験✏️</li>
+                    <li>#料理したい気分🍳</li>
+                    <li>#運動したい気分🏃‍♀️</li>
+                    <li>#デザインしたい🎨</li>
+                    <li>#外国語を学びたい🇺🇸</li>
+                </ul>
+            </div>
+        </div>
 
-            <!-- <div class="category-area">
+        <!-- <div class="category-area">
                 <h1>Category</h1>
                 <p>カテゴリーから探す</p>
                 <div class="category-content">
@@ -249,34 +251,34 @@
                 </div>
             </div> -->
 
-        </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const sliderWrapper = document.querySelector('.slider-wrapper');
-                const prevButton = document.querySelector('.prev');
-                const nextButton = document.querySelector('.next');
-                const slides = document.querySelectorAll('.slide');
-                let currentIndex = 0;
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sliderWrapper = document.querySelector('.slider-wrapper');
+            const prevButton = document.querySelector('.prev');
+            const nextButton = document.querySelector('.next');
+            const slides = document.querySelectorAll('.slide');
+            let currentIndex = 0;
 
-                function showSlide(index) {
-                    const totalSlides = slides.length;
-                    if (index < 0) index = totalSlides - 1;
-                    if (index >= totalSlides) index = 0;
-                    sliderWrapper.style.transform = `translateX(-${index * 100}%)`;
-                    currentIndex = index;
-                }
+            function showSlide(index) {
+                const totalSlides = slides.length;
+                if (index < 0) index = totalSlides - 1;
+                if (index >= totalSlides) index = 0;
+                sliderWrapper.style.transform = `translateX(-${index * 100}%)`;
+                currentIndex = index;
+            }
 
-                prevButton.addEventListener('click', () => {
-                    showSlide(currentIndex - 1);
-                });
-
-                nextButton.addEventListener('click', () => {
-                    showSlide(currentIndex + 1);
-                });
-
-
+            prevButton.addEventListener('click', () => {
+                showSlide(currentIndex - 1);
             });
-        </script>
+
+            nextButton.addEventListener('click', () => {
+                showSlide(currentIndex + 1);
+            });
+
+
+        });
+    </script>
 </body>
 
 </html>
