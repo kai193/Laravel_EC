@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>スキルシェアECサイト</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -201,55 +204,76 @@
 
 
         <div class="scene-area">
-            <div class="scene-text" >
+            <div class="scene-text">
                 <h1>Scene</h1>
                 <p>シーンや気持ちで探す</p>
             </div>
             <div class="scene-list">
                 <ul>
-                    <li>#音楽したい🎹</li>
-                    <li>#プログラミングを学びたい💻</li>
-                    <li>#資格試験✏️</li>
-                    <li>#料理したい気分🍳</li>
-                    <li>#運動したい気分🏃‍♀️</li>
-                    <li>#デザインしたい🎨</li>
-                    <li>#外国語を学びたい🇺🇸</li>
+                    <li>音楽したい🎹</li>
+                    <li>プログラミングを学びたい💻</li>
+                    <li>資格試験✏️</li>
+                    <li>料理したい気分🍳</li>
+                    <li>運動したい気分🏃‍♀️</li>
+                    <li>デザインしたい🎨</li>
+                    <li>外国語を学びたい🇺🇸</li>
                 </ul>
             </div>
         </div>
 
-        <!-- <div class="category-area">
+        <div class="category-area">
+            <div class="category-text">
                 <h1>Category</h1>
                 <p>カテゴリーから探す</p>
-                <div class="category-content">
+            </div>
+            <div class="category-content">
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#音楽🎵</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#プログラミング💻</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#資格✏️</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#料理🍳</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#運動🥊</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#デザイン🧑‍🎨</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#E-sports🎮</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#人気上昇🔥</p>
+                </div>
 
+                <div class="category-item">
                     <img src="images/kari.jpg" alt="">
                     <p>#殿堂入り👑</p>
                 </div>
-            </div> -->
+            </div>
+        </div>
+
 
     </div>
     <script>
