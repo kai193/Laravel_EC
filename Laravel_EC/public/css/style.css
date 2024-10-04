@@ -181,7 +181,6 @@
 .recomend-wrapper {
     z-index: 10;
     margin-top: 40px;
-    margin-bottom: 40px;
     background-color: #5fd8aa;
     padding: 100px;
 }
@@ -189,13 +188,11 @@
 .recomend {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .recomend-text {
     text-align: center;
     margin-top: -140px;
-    margin-bottom: 20px;
 }
 .recomend-text h1 {
     z-index: 1;
@@ -213,6 +210,7 @@
     margin: 0 10px;
     text-align: center;
 }
+
 .recomend img {
     width: 100%;
     height: auto;
@@ -227,35 +225,51 @@
     background-color: #FFC268;
 }
 
+.field-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .field-content1 {
-    position: relative;
     margin: 0 auto;
 }
 
 .field-img {
-    position: relative; 
     margin: 0 auto;
 }
 
 .field-img img {
+    position: relative;
     height: auto;
     margin: 0 auto;
 }
 
 .field-text {
-    position: absolute; /* 絶対位置に設定 */
+    position: absolute;
+    padding: 20px;
     top: 0;
-    left: 0;
-    padding: 20px; /* 内側の余白を設定 */
+}
+
+.field-main-text {
+    text-align: center;
+}
+
+.field-main-text h1 {
+    top: -100px;
+    font-size: 53px;
+}
+
+.field-main-text p {
+    font-size: 21px;
 }
 
 .field-text h1, .field-text h2, .field-text h3, .field-text p, .field-text ul {
-    margin: 0 0 10px; /* マージンを調整して余白を統一 */
+    margin: 0 0 10px;
 }
 
 .field-text ul {
-    list-style-type: none; /* リストのデフォルトの箇条書き記号を削除 */
-    padding: 0; /* 内側の余白を削除 */
+    list-style-type: none;
+    padding: 0;
 }
 
 .h1-text {

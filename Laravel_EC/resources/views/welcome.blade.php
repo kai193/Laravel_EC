@@ -145,7 +145,7 @@
                 <h1>You can learn</h1>
                 <p>分野</p>
             </div>
-            <div class="field-content-wrapper" style="display: flex;">
+            <div class="field-content-wrapper">
                 <div class="field-content">
                     <div class="field-img">
                         <img src="images/Vector 8.jpg" alt="背景画像">
