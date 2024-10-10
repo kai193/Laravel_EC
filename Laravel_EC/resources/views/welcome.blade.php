@@ -17,7 +17,7 @@
             <div class="image-container">
                 <img src="images/kari.jpg" alt="">
             </div>
-            <h1>Skill Masterとは？</h1>
+            <a href=""><h1>Skill Masterとは？</h1></a>
         </div>
         <div class="teach-ranking">
             <div class="teach-ranking-text">

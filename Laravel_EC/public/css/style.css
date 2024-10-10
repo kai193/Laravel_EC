@@ -397,3 +397,8 @@
     margin-top: 10px;
     font-size: 18px;
 }
+
+
+h1, p, li {
+    font-weight: bold;
+}
