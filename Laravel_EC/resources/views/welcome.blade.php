@@ -14,10 +14,15 @@
 <body>
     <div class="wrapper">
         <div class="main-visual">
-            <div class="image-container">
-                <img src="images/kari.jpg" alt="">
+            <div class="main-visual-slider">
+                <div class="image-container">
+                    <img src="images/Group 50.jpg" alt="メインビジュアルスライダー">
+                    <img src="images/Group 52.jpg" alt="メインビジュアルスライダー">
+                    <img src="images/Group 54.jpg" alt="メインビジュアルスライダー">
+
+                </div>
+                <h1>Skill Masterとは？</h1>
             </div>
-            <a href=""><h1>Skill Masterとは？</h1></a>
         </div>
         <div class="teach-ranking">
             <div class="teach-ranking-text">
@@ -154,17 +159,27 @@
                         <img src="images/Vector 8.jpg" alt="背景画像">
                     </div>
                     <div class="field-text">
-                        <h1 class="h1-text">プログラミング</h1>
-                        <h2>学べる内容</h2>
-                        <ul>
-                            <li>Java</li>
-                            <li>Java</li>
-                            <li>Java</li>
-                            <li>Java</li>
-                        </ul>
-                        <p>あああああああああああああああああああああああ</p>
-                        <h3>saaaaaaaaaaaaaaaaaaa</h3>
-                        <p>詳細を見る</p>
+                        <h1 class="h1-text">music</h1>
+                        <div class=field-inner>
+                            <img src="images/kari.jpg" alt="">
+                            <div class="inner-text">
+                                <h2>学べる内容</h2>
+                                <ul>
+                                    <li>ピアノ</li>
+                                    <li>ギター</li>
+                                    <li>ベース</li>
+                                    <li>ドラム</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>楽典: 音符、拍子、調性など、音楽の基礎知識を学べます。<br>
+                            和声: コードの構成や進行、楽曲のハーモニーを理解できます<br>
+                            作曲: メロディー、リズム、ハーモニーを組み合わせて、<br>
+                            オリジナル楽曲を作成できます。<br>
+                            編曲: 既存の楽曲を、別の楽器編成やスタイルにアレンジできます。</p>
+                        <div class="detail">
+                            <p>詳細を見る</p>
+                        </div>
                     </div>
                 </div>
 
@@ -173,17 +188,31 @@
                         <img src="images/Vector 8.jpg" alt="背景画像">
                     </div>
                     <div class="field-text">
-                        <h1 class="h1-text">プログラミング</h1>
-                        <h2>学べる内容</h2>
-                        <ul>
-                            <li>Java</li>
-                            <li>Java</li>
-                            <li>Java</li>
-                            <li>Java</li>
-                        </ul>
-                        <p>あああああああああああああああああああああああ</p>
-                        <h3>saaaaaaaaaaaaaaaaaaa</h3>
-                        <p>詳細を見る</p>
+                        <h1 class="h1-text">cooking</h1>
+                        <div class=field-inner2>
+                            <img src="images/kari.jpg" alt="">
+                            <div class="inner-text2">
+                                <h2>学べる内容</h2>
+                                <ul>
+                                    <li>パスタ、ピザ、リゾット</li>
+                                    <li>フランス料理のソース作り</li>
+                                    <li>中華料理</li>
+                                    <li>韓国料理など</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>毎日のお弁当: 簡単でおいしいお弁当の詰め方や、<br>
+                            レパートリーを増やす方法を学べます。<br>
+                            離乳食: 赤ちゃんに安心して食べさせられる<br>
+                            離乳食の作り方を学べます。<br>
+                            お菓子作り: ケーキ、クッキー、マフィンなど、<br>
+                            様々な種類のお菓子作りを学べます。<br>
+                            パン作り: 食パン、クロワッサンなど、
+                            <br>手作りパンの楽しさを体験できます。
+                        </p>
+                        <div class="detail2">
+                            <p>詳細を見る</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -277,6 +306,27 @@
 
     </div>
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let currentIndex = 0;
+            const images = document.querySelectorAll('.image-container img');
+            const totalImages = images.length;
+
+            function showNextImage() {
+                images[currentIndex].classList.remove('active');
+                currentIndex = (currentIndex + 1) % totalImages;
+                images[currentIndex].classList.add('active');
+            }
+
+            // 最初の画像を表示
+            images[currentIndex].classList.add('active');
+
+            // 3秒ごとに画像を切り替える
+            setInterval(showNextImage, 3000);
+        });
+
+
+
+
         document.addEventListener('DOMContentLoaded', () => {
             const sliderWrapper = document.querySelector('.slider-wrapper');
             const prevButton = document.querySelector('.prev');
