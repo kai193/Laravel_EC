@@ -114,13 +114,13 @@
             </div>
         </div>
 
-        <div class="recomend-wrapper">
-            <div class="recomend-text">
-                <h1>Recomended</h1>
+        <div class="recommend-wrapper">
+            <div class="recommend-text">
+                <h1>Recommended</h1>
                 <p>おすすめ</p>
             </div>
-            <div class="recomend">
-                <div class="recomend-list">
+            <div class="recommend">
+                <div class="recommend-list">
                     <img src="images/kari.jpg" alt="">
                     <p>初心者向けPythonコース<br>Web制作コース</p>
                     <p class="item-price">¥5,740</p>
@@ -132,13 +132,13 @@
                     <p class="item-price">¥6,270</p>
                     <p class="item-link">詳細を見る</p>
                 </div>
-                <div class="recomend-list">
+                <div class="recommend-list">
                     <img src="images/kari.jpg" alt="">
                     <p>[初心者脱出]<br>Valorant完全攻略講座</p>
                     <p class="item-price">¥8,640</p>
                     <p class="item-link">詳細を見る</p>
                 </div>
-                <div class="recomend-list">
+                <div class="recommend-list">
                     <img src="images/kari.jpg" alt="">
                     <p>現役デザイナーが教える!<br>Webデザイン講座</p>
                     <p class="item-price">¥6,230</p>
@@ -156,7 +156,7 @@
             <div class="field-content-wrapper">
                 <div class="field-content">
                     <div class="field-img">
-                        <img src="images/Vector 8.jpg" alt="背景画像">
+                        <img src="images/Vector 8.png" alt="背景画像">
                     </div>
                     <div class="field-text">
                         <h1 class="h1-text">music</h1>
@@ -185,7 +185,7 @@
 
                 <div class="field-content">
                     <div class="field-img">
-                        <img src="images/Vector 8.jpg" alt="背景画像">
+                        <img src="images/Vector 8.png" alt="背景画像">
                     </div>
                     <div class="field-text">
                         <h1 class="h1-text">cooking</h1>
