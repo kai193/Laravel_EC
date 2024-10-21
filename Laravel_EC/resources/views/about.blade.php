@@ -18,11 +18,11 @@
         <div class="content-wrapper">
             <div class="about-content">
                 <div class="content-img1">
-                    <img src="images/kari.jpg" alt="仮">
+                    <img src="images/programming/program.a.jpg" alt="仮">
                 </div>
 
                 <div class="content-img2">
-                    <img src="images/kari.jpg" alt="仮">
+                    <img src="images/gengo/aboutg.jpg" alt="仮">
                 </div>
             </div>
             <div class="about-text">

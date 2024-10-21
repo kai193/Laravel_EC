@@ -13,3 +13,6 @@ Route::get('/', function () {
 // 上記のコードは、ユーザーがウェブサイトのルートURLにアクセスした時に、
 // 'welcome'という名前のビューファイルを表示するよう指示しています。
 // このビューファイルは通常、resources/views/welcome.blade.phpに配置されています。
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

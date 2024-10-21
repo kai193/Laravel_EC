@@ -15,13 +15,12 @@
     <div class="wrapper">
         <div class="main-visual">
             <div class="main-visual-slider">
-                <div class="image-container">
+            <div class="image-container">
                     <img src="images/Group 50.jpg" alt="メインビジュアルスライダー">
                     <img src="images/Group 52.jpg" alt="メインビジュアルスライダー">
                     <img src="images/Group 54.jpg" alt="メインビジュアルスライダー">
-
                 </div>
-                <h1>Skill Masterとは？</h1>
+                <h1><a href="{{ route('about') }}">Skill Masterとは？</a></h1>
             </div>
         </div>
         <div class="teach-ranking">
