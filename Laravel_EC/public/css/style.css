@@ -130,10 +130,11 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+
 }
 
 .item-description {
-    object-fit: cover;
+    display: table-caption;
 }
 
 .item-price {
