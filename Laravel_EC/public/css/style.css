@@ -17,6 +17,16 @@
     overflow: hidden;
 }
 
+.main-visual-slider a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-visual-slider a:hover {
+    color: #5ac563;
+    transition: 1s ;
+}
+
 .image-container {
     position: relative;
     width: 80%;
@@ -108,9 +118,9 @@
 }
 
 .item img {
-    width: 100%;
+    margin: 0;
+    width: 200px;
     height: auto;
-    max-width: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -123,7 +133,7 @@
 }
 
 .item-description {
-    margin: 0;
+    object-fit: cover;
 }
 
 .item-price {
