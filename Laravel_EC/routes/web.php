@@ -16,3 +16,11 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/E-sport', function () {
+    return view('E-sport');
+})->name('E-sport');
+
+Route::get('/language', function () {
+    return view('language');
+})->name('language');
