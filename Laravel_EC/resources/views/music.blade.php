@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                     </div>
                 </div>
                 <div class="second_img">
@@ -109,7 +109,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -126,7 +126,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                     </div>
                 </div>
                 <div class="second_img">
@@ -160,7 +160,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -177,7 +177,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_music')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -188,14 +188,14 @@
             <p class="scene_text">シーンや気持ちで探す</p>
             <div class="btn_flex">
                 <div class="scene_btn_content">
-                    <a href="" class="btn btn-flat"><span class="push">#音楽したい🎹</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
+                    <a href="{{route('music')}}" class="btn btn-flat"><span class="push">#音楽したい🎹</span></a>
+                    <a href="{{route('programming')}}" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
+                    <a href="{{route('cooking')}}" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
                 </div>
                 <div class="scene_btn_content02">
-                    <a href="" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
+                    <a href="{{route('E-sport')}}" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
+                    <a href="{{route('design')}}" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
+                    <a href="{{route('language')}}" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                 <figure class="circle_img">
                     <img src="images/music.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text"><a href="{{route('music')}}">#音楽</p></a>
+                    <p class="circle_text"><a href="{{route('detail_music')}}">#音楽</p></a>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">

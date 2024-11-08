@@ -117,11 +117,14 @@
                     </figcaption>
                 </figure>
                 <figure class="ranking_content">
-                    <p class="ranking_item_text">no.<span class="number">3</span></p>
-                    <img src="images/programming3.jpg">
+                    <p class="ranking_item_text">no.<span class="number">4</span></p>
+                    <img src="images/programming4.jpg">
                     <figcaption class="ranking_introduction">
-                        <p class="ranking_item_introduction">現役デザイナーが教える！<br>デザイン基礎講座</p>
-                        <p><br><br><br><br><br><br><br></p>
+                        <p class="ranking_item_introduction">本格中華料理の極意<br>家庭で味わえる本格中華</p>
+                        <div class="bg_popularity">
+                        </div>
+                        <p class="popularity">殿堂入り👑<span class="yen">¥3,740</span></p>
+                        <button class="ranking_btn"><a href="{{route('cooking')}}">詳細を見る</a></button>
                     </figcaption>
                 </figure>
                 <figure class="ranking_content">

@@ -21,10 +21,10 @@
     color: #fff;
     margin: 0 auto;
 }
-a{
+/* a{
     text-decoration: none;
-    color: #fff;
-}
+    color: #000;
+} */
 .main-visual-slider a:hover {
     color: #5ac563;
     transition: 1s ;
@@ -132,6 +132,9 @@ a{
     padding-block: 100px;
     width: 90%;
     margin: 0 auto;
+}
+.ranking_btn a{
+    color: #fff;
 }
 .ranking_ttl{
     text-align: center;

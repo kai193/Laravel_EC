@@ -48,3 +48,11 @@ Route::get('/design', function () {
 Route::get('/E-sport', function () {
     return view('E-sport');
 })->name('E-sport');
+
+Route::get('/detail_music', function () {
+    return view('detail_music');
+})->name('detail_music');
+
+Route::get('/E-sport', function () {
+    return view('E-sport');
+})->name('E-sport');
