@@ -29,7 +29,7 @@
                                 <ul >
                                     <li class="inner_nav">
                                         <div class="nav_content">
-                                            <img src="images/Vector.png" alt="疑問符"> 
+                                            <img src="images/Vector.png" alt="疑問符">
                                             <a href="#">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
@@ -101,7 +101,7 @@
                         </div>
                         <p class="popularity">人気上昇中🔥<span class="yen">¥3,740</span></p>
                         <div class="ranking_btn">
-                            <button>詳細を見る</button> 
+                            <button><a href="{{route('programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </figure>
@@ -113,7 +113,7 @@
                         <div class="bg_popularity">
                         </div>
                         <p class="popularity">殿堂入り👑<span class="yen">¥3,740</span></p>
-                        <button class="ranking_btn">詳細を見る</button>
+                        <button class="ranking_btn"><a href="{{route('programming')}}">詳細を見る</a></button>
                     </figcaption>
                 </figure>
                 <figure class="ranking_content">
@@ -132,7 +132,7 @@
                         <div class="bg_popularity">
                         </div>
                         <p class="popularity">殿堂入り👑<span class="yen">¥3,740</span></p>
-                        <button class="ranking_btn">詳細を見る</button>
+                        <button class="ranking_btn"><a href="{{route('cooking')}}">詳細を見る</a></button>
                     </figcaption>
                 </figure>
             </div>
@@ -149,7 +149,7 @@
                         </div>
                         <p class="popularity">人気上昇中🔥<span class="yen">¥3,740</span></p>
                         <div class="ranking_btn">
-                            <button>詳細を見る</button> 
+                            <button><a href="{{route('programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </figure>
@@ -160,7 +160,7 @@
                         <div class="bg_popularity">
                         </div>
                         <p class="popularity">殿堂入り👑<span class="yen">¥3,740</span></p>
-                        <button class="ranking_btn">詳細を見る</button>
+                        <button class="ranking_btn"><a href="{{route('programming')}}">詳細を見る</a></button>
                     </figcaption>
                 </figure>
                 <figure class="ranking_content">
@@ -177,7 +177,7 @@
                         <div class="bg_popularity">
                         </div>
                         <p class="popularity">殿堂入り👑<span class="yen">¥3,740</span></p>
-                        <button class="ranking_btn">詳細を見る</button>
+                        <button class="ranking_btn"><a href="{{route('cooking')}}">詳細を見る</a></button>
                     </figcaption>
                 </figure>
             </div>
@@ -234,14 +234,14 @@
             <p class="scene_text">シーンや気持ちで探す</p>
             <div class="scene-list">
                 <ul class="scene_list_ul">
-                    <li>音楽したい🎹</li>
-                    <li>プログラミングを学びたい  💻</li>
-                    <li>外国語を学びたい🇺🇸</li>
+                    <li><a href="{{route('music')}}">音楽したい🎹</li></a>
+                    <li><a href="{{route('programming')}}">プログラミングを学びたい  💻</li></a>
+                    <li><a href="{{route('language')}}">外国語を学びたい🇺🇸</li></a>
                 </ul>
                 <ul class="scene_list_ul">
-                    <li>料理したい気分🍳</li>
-                    <li>デザインしたい  🎨</li>
-                    <li>ゲームしたい</li>
+                    <li><a href="{{route('cooking')}}">料理したい気分🍳</li></a>
+                    <li><a href="{{route('design')}}">デザインしたい  🎨</li></a>
+                    <li><a href="{{route('E-sport')}}">ゲームしたい</li></a>
                 </ul>
             </div>
         </div>
@@ -251,19 +251,19 @@
             <p class="category_text">カテゴリーから探す</p>
             <div class="circle_content">
                 <figure class="circle_img">
-                    <img src="images/music.jpg">
+                <a href="{{route('music')}}"><img src="images/music.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#音楽</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/programming.jpg">
+                <a href="{{route('programming')}}"><img src="images/programming.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#プログラミング</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/gengo.jpg">
+                <a href="{{route('language')}}"><img src="images/gengo.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#語学</p>
                     </figcaption>
@@ -271,13 +271,13 @@
             </div>
             <div class="circle_content">
                 <figure class="circle_img">
-                    <img src="images/ryouri.jpg">
+                <a href="{{route('cooking')}}"><img src="images/ryouri.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#料理</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/design.jpg">
+                <a href="{{route('design')}}"><img src="images/design.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#デザイン</p>
                     </figcaption>

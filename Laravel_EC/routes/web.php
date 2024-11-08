@@ -24,3 +24,27 @@ Route::get('/E-sport', function () {
 Route::get('/language', function () {
     return view('language');
 })->name('language');
+
+Route::get('/programming', function () {
+    return view('programming');
+})->name('programming');
+
+Route::get('/cooking', function () {
+    return view('cooking');
+})->name('cooking');
+
+Route::get('/music', function () {
+    return view('music');
+})->name('music');
+
+Route::get('/language', function () {
+    return view('language');
+})->name('language');
+
+Route::get('/design', function () {
+    return view('design');
+})->name('design');
+
+Route::get('/E-sport', function () {
+    return view('E-sport');
+})->name('E-sport');

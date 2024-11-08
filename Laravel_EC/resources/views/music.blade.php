@@ -26,7 +26,7 @@
                                 <ul >
                                     <li class="inner_nav">
                                         <div class="nav_content">
-                                            <img src="images/Vector.png" alt="疑問符"> 
+                                            <img src="images/Vector.png" alt="疑問符">
                                             <a href="#">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
@@ -207,19 +207,19 @@
                 <figure class="circle_img">
                     <img src="images/music.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#音楽</p>
+                        <p class="circle_text"><a href="{{route('music')}}">#音楽</p></a>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
                     <img src="images/programming.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#プログラミング</p>
+                        <p class="circle_text"><a href="{{route('programming')}}">#プログラミング</p></a>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
                     <img src="images/gengo.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#語学</p>
+                        <p class="circle_text"><a href="{{route('language')}}">#語学</p></a>
                     </figcaption>
                 </figure>
             </div>
@@ -227,19 +227,19 @@
                 <figure class="circle_img">
                     <img src="images/ryouri.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#料理</p>
+                        <p class="circle_text"><a href="{{route('cooking')}}">#料理</p></a>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
                     <img src="images/design.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#デザイン</p>
+                        <p class="circle_text"><a href="{{route('design')}}">#デザイン</p></a>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
                     <img src="images/E-spo.jpg">
                     <figcaption class="circle_title">
-                        <p class="circle_text">#E-sport</p>
+                        <p class="circle_text"><a href="{{route('E-sport')}}">#E-sport</p></a>
                     </figcaption>
                 </figure>
             </div>
@@ -273,7 +273,7 @@
         </footer>
     </main>
 
-    
+
     <script src="js/header-nave.js"></script>
 
 </body>
