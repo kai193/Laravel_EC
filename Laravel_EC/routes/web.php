@@ -53,6 +53,26 @@ Route::get('/detail_music', function () {
     return view('detail_music');
 })->name('detail_music');
 
-Route::get('/E-sport', function () {
-    return view('E-sport');
-})->name('E-sport');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/Member', function () {
+    return view('Member');
+})->name('Member');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
+Route::get('/detail_Programming', function () {
+    return view('detail_Programming');
+})->name('detail_Programming');

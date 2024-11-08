@@ -18,7 +18,7 @@
             </div>
                 <div class="header_log_nav">
                     <div class="btn">
-                        <button type="button">LOGIN</button>
+                        <button type="button"><a href="{{route('login')}}">LOGIN</a></button>
                     </div>
                     <div class="head_log_cart">
                         <img src="images/cart.svg" alt="カート">
@@ -30,7 +30,7 @@
                                     <li class="inner_nav">
                                         <div class="nav_content">
                                             <img src="images/Vector.png" alt="疑問符">
-                                            <a href="#">Skill Masterとは？</a>
+                                            <a href="{{route('about')}}">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
                                             <img src="images/Line.png" alt="矢印">
@@ -48,7 +48,7 @@
                                     <li class="inner_nav">
                                         <div class="nav_content">
                                             <img src="images/teacher.png" alt="先生">
-                                            <a href="#">先生になる</a>
+                                            <a href="{{route('Member')}}">先生になる</a>
                                         </div>
                                         <figure class="line">
                                             <img src="images/Line.png" alt="矢印">
@@ -56,14 +56,14 @@
                                     </li>
                                 </ul>
                                 <div class="nav_text">
-                                    <p><a href="#">ログイン</a></p>
-                                    <p><a href="#">新規会員登録</a></p>
-                                    <p><a href="#">お問い合わせ</a></p>
+                                    <p> <a href="{{route('login')}}">ログイン</a></p>
+                                    <p> <a href="{{route('about')}}">新規会員登録</a></p>
+                                    <p> <a href="{{route('contact')}}">お問い合わせ</a></p>
                                 </div>
                                 <figure class="nav_sns_icon">
-                                    <a href="#"><img src="images/instagram_icon.svg" alt="facebook"></a>
-                                    <a href="#"><img src="images/twitter_icon.svg" alt="twitter"></a>
-                                    <a href="#"><img src="images/facebook_icon.svg" alt="instagram"></a>
+                                <a href="{{route('about')}}"><img src="images/instagram_icon.svg" alt="facebook"></a>
+                                <a href="{{route('about')}}"><img src="images/twitter_icon.svg" alt="twitter"></a>
+                                <a href="{{route('about')}}"><img src="images/facebook_icon.svg" alt="instagram"></a>
                                 </figure>
                             </div>
                         </nav>
@@ -128,7 +128,7 @@
                     </figcaption>
                 </figure>
                 <figure class="ranking_content">
-                    <p class="ranking_item_text">no.<span class="number">4</span></p>
+                    <p class="ranking_item_text">no.<span class="number">5</span></p>
                     <img src="images/programming4.jpg">
                     <figcaption class="ranking_introduction">
                         <p class="ranking_item_introduction">本格中華料理の極意<br>家庭で味わえる本格中華</p>
@@ -305,13 +305,13 @@
                 </figure>
                 <div class="sns_area_text">
                     <p>先生になる</p>
-                    <p>ログイン・新規会員登録</p>
+                    <p><a href="{{route('login')}}">ログイン・新規会員登録</a></p>
                 </div>
                 <div class="inquiry">
-                    <p>| よくある質問</p>
-                    <p>| お問い合わせ</p>
-                    <p>| プライバシーポリシー</p>
-                    <p>| ご利用規約</p>
+                    <p><a href="{{route('contact')}}">| よくある質問</a></p>
+                    <p><a href="{{route('contact')}}">| お問い合わせ</a></p>
+                    <p><a href="{{route('cooking')}}">| プライバシーポリシー</a></p>
+                    <p><a href="{{route('cooking')}}">| ご利用規約</a></p>
                 </div>
             </div>
         </section>

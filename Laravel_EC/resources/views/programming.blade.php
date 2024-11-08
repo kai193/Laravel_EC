@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                     </div>
                 </div>
                 <div class="second_img">
@@ -109,7 +109,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -126,7 +126,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                     </div>
                 </div>
                 <div class="second_img">
@@ -160,7 +160,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>
@@ -177,7 +177,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</a></button>
                         </div>
                     </figcaption>
                 </div>

@@ -53,9 +53,9 @@
                                     </li>
                                 </ul>
                                 <div class="nav_text">
-                                    <p><a href="#">ログイン</a></p>
-                                    <p><a href="#">新規会員登録</a></p>
-                                    <p><a href="#">お問い合わせ</a></p>
+                                    <p> <a href="{{route('login')}}">ログイン</a></p>
+                                    <p> <a href="{{route('about')}}">新規会員登録</a></p>
+                                    <p> <a href="{{route('contact')}}">お問い合わせ</a></p>
                                 </div>
                                 <figure class="nav_sns_icon">
                                     <a href="#"><img src="images/instagram_icon.svg" alt="facebook"></a>
