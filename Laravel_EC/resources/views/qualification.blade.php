@@ -26,7 +26,7 @@
                                 <ul >
                                     <li class="inner_nav">
                                         <div class="nav_content">
-                                            <img src="images/Vector.png" alt="疑問符"> 
+                                            <img src="images/Vector.png" alt="疑問符">
                                             <a href="#">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
@@ -273,7 +273,7 @@
         </footer>
     </main>
 
-    
+
     <script src="js/header-nave.js"></script>
 
 </body>
