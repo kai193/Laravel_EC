@@ -26,7 +26,7 @@
                                 <ul >
                                     <li class="inner_nav">
                                         <div class="nav_content">
-                                            <img src="images/Vector.png" alt="疑問符"> 
+                                            <img src="images/Vector.png" alt="疑問符">
                                             <a href="#">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
@@ -188,13 +188,13 @@
             <p class="scene_text">シーンや気持ちで探す</p>
             <div class="btn_flex">
                 <div class="scene_btn_content">
-                    <a href="" class="btn btn-flat"><span class="push">#音楽したい🎹</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
+                    <a href="{{route('music')}}" class="btn btn-flat"><span class="push"><#音楽したい🎹</span></a>
+                    <a href="{{route('programming')}}" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
+                    <a href="{{route('cooking')}}" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
                 </div>
                 <div class="scene_btn_content02">
-                    <a href="" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
+                    <a href="{{route('E-sport')}}" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
+                    <a href="{{route('design')}}" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
                     <a href="" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
                     </div>
                 </div>
@@ -205,19 +205,19 @@
             <p class="category_text">カテゴリーから探す</p>
             <div class="circle_content">
                 <figure class="circle_img">
-                    <img src="images/music.jpg">
+                    <a href="{{route('music')}}"><img src="images/music.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#音楽</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/programming.jpg">
+                    <a href="{{route('programming')}}"><img src="images/programming.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#プログラミング</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/gengo.jpg">
+                    <a href="{{route('detail_language')}}"><img src="images/gengo.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#語学</p>
                     </figcaption>
@@ -225,19 +225,19 @@
             </div>
             <div class="circle_content">
                 <figure class="circle_img">
-                    <img src="images/ryouri.jpg">
+                    <a href="{{route('cooking')}}"><img src="images/ryouri.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#料理</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/design.jpg">
+                    <a href="{{route('design')}}"><img src="images/design.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#デザイン</p>
                     </figcaption>
                 </figure>
                 <figure class="circle_img">
-                    <img src="images/E-spo.jpg">
+                    <a href="{{route('E-sport')}}"><img src="images/E-spo.jpg"></a>
                     <figcaption class="circle_title">
                         <p class="circle_text">#E-sport</p>
                     </figcaption>
@@ -273,7 +273,7 @@
         </footer>
     </main>
 
-    
+
     <script src="js/header-nave.js"></script>
 
 </body>

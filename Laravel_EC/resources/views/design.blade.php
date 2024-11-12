@@ -26,7 +26,7 @@
                                 <ul >
                                     <li class="inner_nav">
                                         <div class="nav_content">
-                                            <img src="images/Vector.png" alt="疑問符"> 
+                                            <img src="images/Vector.png" alt="疑問符">
                                             <a href="#">Skill Masterとは？</a>
                                         </div>
                                         <figure class="line">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                     </div>
                 </div>
                 <div class="second_img">
@@ -109,7 +109,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                         </div>
                     </figcaption>
                 </div>
@@ -126,7 +126,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                         </div>
                     </figcaption>
                 </div>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div class="second_btn">
-                        <button type="button" class="detail">詳細を見る</button>
+                        <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                     </div>
                 </div>
                 <div class="second_img">
@@ -160,7 +160,7 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                         </div>
                     </figcaption>
                 </div>
@@ -177,73 +177,15 @@
                             <img src="images/heart.svg">
                         </div>
                         <div class="second_btn">
-                            <button type="button" class="detail">詳細を見る</button>
+                            <button type="button" class="detail"><a href="{{route('detail_Programming')}}">詳細を見る</button></a>
                         </div>
                     </figcaption>
                 </div>
             </div>
         </section>
-        <section class="scene">
-            <h1 class="scene_ttl">scene</h1>
-            <p class="scene_text">シーンや気持ちで探す</p>
-            <div class="btn_flex">
-                <div class="scene_btn_content">
-                    <a href="" class="btn btn-flat"><span class="push">#音楽したい🎹</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
-                </div>
-                <div class="scene_btn_content02">
-                    <a href="" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="category">
-            <h1 class="category_ttl">Category</h1>
-            <p class="category_text">カテゴリーから探す</p>
-            <div class="circle_content">
-                <figure class="circle_img">
-                    <img src="images/music.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#音楽</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/programming.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#プログラミング</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/gengo.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#語学</p>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="circle_content">
-                <figure class="circle_img">
-                    <img src="images/ryouri.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#料理</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/design.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#デザイン</p>
-                    </figcaption>
-                </figure>
-                <figure class="circle_img">
-                    <img src="images/E-spo.jpg">
-                    <figcaption class="circle_title">
-                        <p class="circle_text">#E-sport</p>
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
+        Route::get('/detail_Programming', function () {
+    return view('detail_Programming');
+})->name('detail_Programming');
         <div class="sns_content">
             <div class="sns_area">
                 <figure class="sns_area_img">
@@ -273,7 +215,7 @@
         </footer>
     </main>
 
-    
+
     <script src="js/header-nave.js"></script>
 
 </body>

@@ -76,3 +76,7 @@ Route::get('/contact', function () {
 Route::get('/detail_Programming', function () {
     return view('detail_Programming');
 })->name('detail_Programming');
+
+Route::get('/detail_language', function () {
+    return view('detail_language');
+})->name('detail_language');
