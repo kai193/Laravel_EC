@@ -5,7 +5,7 @@
 <title>programming_search</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
     <header class="header">
@@ -186,19 +186,19 @@
         <section class="scene">
             <h1 class="scene_ttl">scene</h1>
             <p class="scene_text">シーンや気持ちで探す</p>
-            <div class="btn_flex">
-                <div class="scene_btn_content">
-                    <a href="{{route('music')}}" class="btn btn-flat"><span class="push"><#音楽したい🎹</span></a>
-                    <a href="{{route('programming')}}" class="btn btn-flat"><span class="push">#プログラミングを学びたい💻</span></a>
-                    <a href="{{route('cooking')}}" class="btn btn-flat"><span class="push">#料理を作りたい気分🍳</span></a>
-                </div>
-                <div class="scene_btn_content02">
-                    <a href="{{route('E-sport')}}" class="btn btn-flat"><span class="push">#ゲームしたい！</span></a>
-                    <a href="{{route('design')}}" class="btn btn-flat"><span class="push">#デザインしたい🎨️</span></a>
-                    <a href="" class="btn btn-flat"><span class="push">#外国語学びたい🇺🇸</span></a>
-                    </div>
-                </div>
+            <div class="scene-list">
+                <ul class="scene_list_ul">
+                    <li><a href="{{route('music')}}">音楽したい🎹</li></a>
+                    <li><a href="{{route('programming')}}">プログラミングを学びたい  💻</li></a>
+                    <li><a href="{{route('language')}}">外国語を学びたい🇺🇸</li></a>
+                </ul>
+                <ul class="scene_list_ul">
+                    <li><a href="{{route('cooking')}}">料理したい気分🍳</li></a>
+                    <li><a href="{{route('design')}}">デザインしたい  🎨</li></a>
+                    <li><a href="{{route('E-sport')}}">ゲームしたい</li></a>
+                </ul>
             </div>
+        </div>
         </section>
         <section class="category">
             <h1 class="category_ttl">Category</h1>

@@ -1,0 +1,83 @@
+/* scene */
+.scene{
+    background-color: #e96d6d;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 80px;
+   
+}
+.scene_ttl{
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.scene_text{
+    position: absolute;
+    top: 30px;
+    left: 44.3%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.scene_btn_content0{
+    margin-top: 5%;
+}
+.btn_flex{
+    padding-top: 10%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.scene_btn_content{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.scene_btn_content02{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    /* justify-content: space-around; */
+    margin-top: 5%;
+    gap: 18%;
+}
+
+
+.scene-list li {
+    margin: 0;
+    border: 2px solid black;
+    border-left: 10px solid black;
+    padding: 10px 20px;
+    display: flex;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.scene-list li:hover {
+    transform: scale(1.05);
+}
+
+.scene-list li:before {
+    content: "#";
+    margin-right: 5px;
+}
+.scene-list{
+   padding-top: 10%;
+}
+.scene_list_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 5%;
+}
+.scene_list_ul li{
+    width: 350px;
+}

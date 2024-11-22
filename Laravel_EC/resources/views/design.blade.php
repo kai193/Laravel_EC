@@ -183,9 +183,7 @@
                 </div>
             </div>
         </section>
-        Route::get('/detail_Programming', function () {
-    return view('detail_Programming');
-})->name('detail_Programming');
+        
         <div class="sns_content">
             <div class="sns_area">
                 <figure class="sns_area_img">
