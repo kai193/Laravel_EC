@@ -22,12 +22,12 @@
                         <label for="password"></label>
                         <input type="password" id="password" name="password" placeholder="パスワード" required>
                     </div>
-                    <button type="button" class="agree_button">ログイン</button>
+                    <a href="{{route('mypage')}}"><button type="button" class="agree_button">ログイン</button></a>
                 </form>
                 </div>
                 <div class="new_login">
                     <h1 class="new_login_ttl">はじめての方</h1>
-                    <button type="button" class="new_button">新規会員登録</button>
+                    <a href="{{route('Member_registration')}}"><button type="button" class="new_button">新規会員登録</button></a>
                 </div>
             </div>
         </section>

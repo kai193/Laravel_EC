@@ -80,3 +80,10 @@ Route::get('/detail_Programming', function () {
 Route::get('/detail_language', function () {
     return view('detail_language');
 })->name('detail_language');
+
+Route::get('/mypage', function () {
+    return view('mypage');
+})->name('mypage');
+Route::get('/Member_registration', function () {
+    return view('Member_registration');
+})->name('Member_registration');
